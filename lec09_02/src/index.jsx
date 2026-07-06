@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Counter from './Counter'
+import SpaceAgency from './SpaceAgency'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 	<React.StrictMode>
-		<Counter startValue={0} />
+		<SpaceAgency id={44} />
 	</React.StrictMode>
 )
